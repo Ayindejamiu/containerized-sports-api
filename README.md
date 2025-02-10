@@ -53,7 +53,7 @@ sports-api-management/
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/ifeanyiro9/containerized-sports-api.git
+git clone https://github.com/Ayindejamiu/containerized-sports-api
 cd containerized-sports-api
 ```
 ### **Create ECR Repo**
@@ -120,7 +120,7 @@ docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-a
 - Create a resource /sports
 - Create a GET method
 - Choose HTTP Proxy as the integration type
-- Enter the DNS name of the ALB that includes "/sports" (e.g. http://sports-api-alb-<AWS_ACCOUNT_ID>.us-east-1.elb.amazonaws.com/sports
+- Enter the DNS name of the ALB that includes "/sports" (e.g. http://sports-api-alb-296512836293.us-east-1.elb.amazonaws.com/sports
 
 3. Deploy the API:
 - Deploy the API to a stage (e.g., prod)
